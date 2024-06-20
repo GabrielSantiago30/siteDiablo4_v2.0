@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Diablo IV</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body style="background-color: #000000; height: auto; ">
+
+    <ul style="color: #ffffff;">
+        <li style="color: #ffffff;"><a href="index.html">Página Inicial</a></li>
+        <li style="color: #ffffff;"><a href="galeria.html">Galeria</a></li>
+        <li style="color: #ffffff;"><a href="formulario.html">Formulário</a></li>
+    </ul>
+
+    <h1 style="color: #ffffff;">Formulário de informações</h1>
+
+    <p style="color: #ffffff;">Coloque seus dados em nosso formulário para receber mais informações do nosso jogo e se tornar um novo néfalem!</p>
+
+    <br />
+
+    <form style="color: #ffffff;">
+
+        <fieldset>
+
+            <legend>Formulário para informações</legend>
+
+            <label for="idnome">Digite seu nome: </label>
+            <input type="text" id="idnome" />
+
+            <br /><br />
+
+            <label for="idnasc">Digite sua data de nascimento: </label>
+            <input type="date" id="idnasc" />
+
+            <br /><br />
+
+            <label for="idnum">Indique quantos jogos Diablo você já jogou: </label>
+            <input type="number" id="idnum" />
+
+            <br /><br />
+
+            <label for="idemail">Digite seu e-mail: </label>
+            <input type="email" id="idemail" placeholder="Digite seu e-mail" />
+
+            <br /><br />
+
+            <label for="idnota">Nos diga o quanto você conhece sobre o mundo de Diablo: 1 a 5 </label>
+
+            <br /> <br />
+
+            <input type="range" id="idnota" min="1" max="5" />
+
+            <br />
+
+            <p> Marque sua classe favorita para receber mais informações sobre ela:</p>
+
+            <input type="radio" name="classe" id="iddruida" />
+            <label for="iddruida"> Druida</label>
+
+            <input type="radio" name="classe" id="idmfeiti" />
+            <label for="idfeiti"> Feiticeiro</label>
+
+            <input type="radio" name="classe" id="idren" />
+            <label for="idren"> Renegado</label>
+
+            <input type="radio" name="classe" id="idnecro" />
+            <label for="idnecro"> Necromante</label>
+
+            <input type="radio" name="classe" id="idbarb" />
+            <label for="idbarb"> Bárbaro</label>
+
+            <br /><br />
+
+            <input type="submit" value="Enviar" />
+
+            <input type="reset" value="Apagar" />
+
+
+        </fieldset>
+
+        <br /><br />
+
+        <img src="imagens/classes.png"
+            alt="Imagem contendo os personagens das classes feiticeiro, bárbaro, necromante, renegado e druida" />
+
+
+    </form>
+
+</body>
+
+</html>
